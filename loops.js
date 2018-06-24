@@ -6,6 +6,7 @@ function forLoop(array) {
       array.push("I am ${i} strange loops.");
     }
   }
+<<<<<<< HEAD
   return array;
 }
 
@@ -27,4 +28,6 @@ function doWhileLoop(array) {
   } while (array.length > 0 && maybeTrue());
   
   return array;
+=======
+>>>>>>> ff57d0f73d18b80c8c5afa54a7d323bb6a6075ee
 }
